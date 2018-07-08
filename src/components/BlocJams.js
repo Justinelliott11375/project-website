@@ -19,7 +19,7 @@ class BlocJams extends Component {
           <li>song numbers render a pause button on song currently playing</li>
           <li>song numbers render a play button when hovered over</li>
         </ul>
-        <a href="https://.shrouded-journey-99212.herokuapp.com" target="_blank">Launch Bloc Jams in a new  browser tab</a>
+        <a href="https://shrouded-journey-99212.herokuapp.com" target="_blank">Launch Bloc Jams in a new  browser tab</a>
       </div>
     )
   }
