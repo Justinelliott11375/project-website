@@ -63,6 +63,13 @@ body {
   height: 3em;
 }
 
+#spaceShooterVideo {
+  height: 18em;
+  width: 15em;
+  float: right;
+  border-radius: 10px;
+}
+
 .projectsLogos {
   height: 3em;
   padding: .25em;
