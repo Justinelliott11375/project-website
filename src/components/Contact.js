@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import adobeLogo from '../images/adobeLogo.png'
+import resumePDF from '../images/resumePDF2.pdf'
 
 class Contact extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Contact extends Component {
         {
         <p>Contact text</p>
         }
-        <p>resume pdf:<img className='projectsLogos' src={adobeLogo}></img></p>
+        <p>resume pdf:<a href={resumePDF} targe="_blank"><img className='projectsLogos' src={adobeLogo}></img></a></p>
       </section>
     )
   }
