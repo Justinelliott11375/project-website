@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import adobeLogo from '../images/adobeLogo.png'
-import resumePDF from '../images/resumePDF2.pdf'
+import resumePDF from '../images/Resume3.pdf'
 
 class Contact extends Component {
   constructor(props) {

@@ -1,0 +1,16 @@
+Exercises
+
+1. In your own words highlight the differences in functionality and purposes Client-Side and Server-Side code serves in a full-stack web application.
+
+Client-side code typically involves user interface, taking input from the user, sending data to a server, receiving information from the server, and manipulating/rendering data.
+Server-side code runs on a server rather on the client's machine. Back end code receives request data from the client and responds by serving response data.
+
+2. What explains Nodes' rise in popularity and use? What does "Isomorphic JavaScript programming" mean? Provide some real-world examples not listed in this checkpoint of companies using Node.js.
+
+Part of Node's popularity is simply because of its base in the Javascript language, Javascript developers can add back end functionality to their applications without having to learn a new language and can build entire applications with a single language. It also helps that JavaScript is such a popular language, many developers know it and it has a large support community.
+Isomorphic Javascript refers to single page applications that send a bundled javascript file of most of the application logic to the client on the initial load. This makes the initial load slower but significantly reduces the number of requests sent to the server. Companies that use Node include: Linkedin, Walmart, Trello, Medium, ebay, NASA, and Groupon.
+
+
+3. Draw a diagram of a full-stack web application and its key components.
+
+Diagram is in image file attached in commit.
