@@ -12,7 +12,9 @@
 nav {
   padding: 2em;
 }
-nav > a, a:visited {
+
+nav>a,
+a:visited {
   color: white;
   margin: 1em;
   font-size: 1.25em;
@@ -32,7 +34,18 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: url("../src/images/Justin1.jpg") no-repeat center center fixed;
-  background-size: cover;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .images {
@@ -77,6 +90,11 @@ body {
 
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
