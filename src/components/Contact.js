@@ -10,9 +10,9 @@ class Contact extends Component {
     return (
       <section>
         {
-        <p>Contact text</p>
+        <p>My Resume</p>
         }
-        <p>resume pdf:<a href={resumePDF} targe="_blank"><img className='projectsLogos' src={adobeLogo}></img></a></p>
+        <p>pdf:<a href={resumePDF} targe="_blank"><img className='projectsLogos' src={adobeLogo}></img></a></p>
       </section>
     )
   }
